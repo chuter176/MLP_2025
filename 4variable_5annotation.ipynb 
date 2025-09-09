@@ -1,0 +1,391 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMnHGDMdaDTITZpn5k13aNK",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/chuter176/MLP_2025/blob/main/4variable_5annotation.ipynb%20\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "4variable"
+      ],
+      "metadata": {
+        "id": "qm5wJaBN2Nrc"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "n3WmDj9ftkqd"
+      },
+      "outputs": [],
+      "source": [
+        "_myname = 'samsjang'\n",
+        "my_name = '홍길동'\n",
+        "MyName3 = 'Hong gil-dong'\n",
+        "country = '대한민국'"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "1_str = '안녕하세요 파이썬!'"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 110
+        },
+        "id": "NR9gK_u7zJu9",
+        "outputId": "18a68d77-8285-4a15-e009-266d84674cef"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "SyntaxError",
+          "evalue": "invalid decimal literal (ipython-input-1982670015.py, line 1)",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"/tmp/ipython-input-1982670015.py\"\u001b[0;36m, line \u001b[0;32m1\u001b[0m\n\u001b[0;31m    1_str = '안녕하세요 파이썬!'\u001b[0m\n\u001b[0m     ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid decimal literal\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "_%var = 'Temp Variables'\n",
+        "@address = 'samsjang@naver.com'"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 110
+        },
+        "id": "btM0gzCpyqXb",
+        "outputId": "2848d47c-6cbd-4786-caf4-50f448615841"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "SyntaxError",
+          "evalue": "cannot assign to expression here. Maybe you meant '==' instead of '='? (ipython-input-904593571.py, line 1)",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"/tmp/ipython-input-904593571.py\"\u001b[0;36m, line \u001b[0;32m1\u001b[0m\n\u001b[0;31m    _%var = 'Temp Variables'\u001b[0m\n\u001b[0m    ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m cannot assign to expression here. Maybe you meant '==' instead of '='?\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "counter = 1\n",
+        "counter = 2                 #counter와는 다른 변수임"
+      ],
+      "metadata": {
+        "id": "wxCITE5Pz_RM"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "and = 1"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 110
+        },
+        "id": "RnLRLXUS0ts9",
+        "outputId": "2ce7d1ec-7fef-45a4-ce9b-093a3c4e2bf1"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "SyntaxError",
+          "evalue": "invalid syntax (ipython-input-2589573702.py, line 1)",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"/tmp/ipython-input-2589573702.py\"\u001b[0;36m, line \u001b[0;32m1\u001b[0m\n\u001b[0;31m    and = 1\u001b[0m\n\u001b[0m    ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import keyword\n",
+        "keyword.kwlist"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "mMi35ulH0Hds",
+        "outputId": "a1937ecd-39b9-4986-e491-89fde598237c"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "['False',\n",
+              " 'None',\n",
+              " 'True',\n",
+              " 'and',\n",
+              " 'as',\n",
+              " 'assert',\n",
+              " 'async',\n",
+              " 'await',\n",
+              " 'break',\n",
+              " 'class',\n",
+              " 'continue',\n",
+              " 'def',\n",
+              " 'del',\n",
+              " 'elif',\n",
+              " 'else',\n",
+              " 'except',\n",
+              " 'finally',\n",
+              " 'for',\n",
+              " 'from',\n",
+              " 'global',\n",
+              " 'if',\n",
+              " 'import',\n",
+              " 'in',\n",
+              " 'is',\n",
+              " 'lambda',\n",
+              " 'nonlocal',\n",
+              " 'not',\n",
+              " 'or',\n",
+              " 'pass',\n",
+              " 'raise',\n",
+              " 'return',\n",
+              " 'try',\n",
+              " 'while',\n",
+              " 'with',\n",
+              " 'yield']"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 37
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "abs=1\n",
+        "abs(-1)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 166
+        },
+        "id": "sISYPFaF07Vr",
+        "outputId": "2223897f-2bb1-4ba2-82f0-fafd4e777f23"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "TypeError",
+          "evalue": "'int' object is not callable",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
+            "\u001b[0;32m/tmp/ipython-input-2673724962.py\u001b[0m in \u001b[0;36m<cell line: 0>\u001b[0;34m()\u001b[0m\n\u001b[1;32m      1\u001b[0m \u001b[0mabs\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0;36m1\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 2\u001b[0;31m \u001b[0mabs\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m-\u001b[0m\u001b[0;36m1\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m",
+            "\u001b[0;31mTypeError\u001b[0m: 'int' object is not callable"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "intData = 1\n",
+        "pi = 3.14"
+      ],
+      "metadata": {
+        "id": "unJGSOlp1Agz"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "flag = True"
+      ],
+      "metadata": {
+        "id": "koDsTfqc1H7d"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "ch = 'x'\n",
+        "strdata = '사랑해요 파이썬!'"
+      ],
+      "metadata": {
+        "id": "iQIsqh681Sp9"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "buffer = 1       #buffer에 정수 1 혈당.buffer는 정수 데이터\n",
+        "buffer + 2"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "JDgMCEni1Zh4",
+        "outputId": "cd1914bc-a0d4-4922-8da4-5e4d34931e6b"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "3"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 47
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "buffer = 'three'     #buffer에 문자열 three를 할당.buffer는 문자 데이터\n",
+        "buffer"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        },
+        "id": "CRxaVr0K1gB4",
+        "outputId": "8d9d6ea0-a0c8-4940-cd74-6393cf40007a"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "'three'"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {},
+          "execution_count": 48
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "5annotation.ipynb"
+      ],
+      "metadata": {
+        "id": "s_wjVXTx2Vu_"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "###주석처리 예시\n",
+        "###만든 날짜:2025.09.09\n",
+        "\n",
+        "a = 1          #a에 1을 할당\n",
+        "b = 5          #b에 5를 할당\n",
+        "print(a+b)     #a+b의 값을 출력"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Dx3wpdDQ2cp3",
+        "outputId": "dca9864f-f4f4-45b0-c10e-cf38dabd2b09"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "6\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "comment = 'Result='\n",
+        "#삼중 따옴표로 특정 영역 주석 처리 예시\n",
+        "\"\"\"a = 1\n",
+        "b = 100\n",
+        "print(a+b)\"\"\"\n",
+        "a = 5\n",
+        "b = 50\n",
+        "print(comment,a+b)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "j9zJu7ev25R2",
+        "outputId": "7cc0438e-4255-4f9e-facd-42a5aff5ab14"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Result= 55\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
